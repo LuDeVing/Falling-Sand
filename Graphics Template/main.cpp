@@ -14,8 +14,10 @@
 bool running = true;
 
 void* bufferMemory;
+
 int bufferWidth = SCREENWIDTH;
 int bufferHeight = SCREENHEIGHT;
+
 BITMAPINFO bufferBitmapInfo;
 
 HWND window;
@@ -504,7 +506,7 @@ void OnUpdate() {
                 Draw(x, SCREENHEIGHT - y - 1, RGB(0, 100, 100));
             else if (blocks[y][x].type == SOLID)
                 Draw(x, SCREENHEIGHT - y - 1, RGB(100, 100, 100));
-            else Draw(x, SCREENHEIGHT - y - 1, RGB(0, 0, 0));
+            else Draw(x, SCREENHEIGHT - y - 1, RGB(235, 206, 135));
         
         }
     }
