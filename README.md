@@ -1,5 +1,8 @@
 # 🏖️ Sand Simulation in C++
 
+![image](https://github.com/user-attachments/assets/24740ed7-3ba4-4306-89b6-0dcfa976969e)
+
+
 This is a simple particle-based sand simulation written in C++ using the Win32 API. It simulates sand and water behavior with real-time interaction and visualization.
 
 > ⚠️ **Note:** This project uses the Windows API, so it's **Windows-only** and must be compiled with the subsystem set to `Windows`.
