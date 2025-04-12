@@ -421,15 +421,15 @@ void updateWater(int x, int y) {
 
 void getInputs() {
 
-    if (GetKeyState(0x31)) {
+    if (GetKeyState(0x31) & 0x8000) {
         userType = SAND;
     }
 
-    if (GetKeyState(0x32)) {
+    if (GetKeyState(0x32) & 0x8000) {
         userType = WATER;
     }
 
-    if (GetKeyState(0x33)) {
+    if (GetKeyState(0x33) & 0x8000) {
         userType = SOLID;
     }
 
